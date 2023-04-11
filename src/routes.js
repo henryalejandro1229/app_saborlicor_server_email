@@ -8,7 +8,8 @@ const transporter = nodemailer.createTransport({
   secure: true, // true for 465, false for other ports
   auth: {
     user: "saborlicorde@gmail.com", // generated ethereal user
-    pass: "uyhnjazojskuvuuy", // generated ethereal password
+    // pass: "uyhnjazojskuvuuy", // generated ethereal password
+    pass: "jpwlbozfqeobxuua", // generated ethereal password
   },
 });
 
@@ -52,7 +53,7 @@ router.post("/send-forgot-password", async (req, res) => {
 
 function getCadenaForgotMail(id) {
   return `
-  <html>
+<html>
 
 <head>
     <style>
