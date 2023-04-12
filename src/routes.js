@@ -172,7 +172,7 @@ function getCadenaForgotMail(id) {
                           text-align: center;
                         ">
                                             <a class="button-28" style="margin-top: 15px;"
-                                                href="http://sastrerialospajaritos.proyectowebuni.com/#/reset-password?id=${id}">
+                                                href="https://licordesabor.proyectowebuni.com/#/home/reset-password?id=${id}">
                                                 Click aquí</a>
                                         </p>
                                         <p style="
@@ -352,7 +352,7 @@ function getCadenaValidateEmail(id) {
                             text-align: center;
                           ">
                                               <a class="button-28" style="margin-top: 15px;"
-                                                  href="http://sastrerialospajaritos.proyectowebuni.com/#/reset-password?id=${id}">
+                                                  href="https://licordesabor.proyectowebuni.com/#/verificar-correo?ID=${id}">
                                               Click aquí</a>
                                           </p>
                                           <p style="
